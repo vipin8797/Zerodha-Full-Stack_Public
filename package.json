@@ -1,0 +1,12 @@
+{
+  "name": "zerodha",
+  "version": "1.0.0",
+  "description": "A full-stack MERN web application simulating stock trading, inspired by Zerodha, with features like dashboard, holdings, buy/sell orders, and charts.",
+  "main": "index.js",
+   "scripts": {
+    "build-docs": "npm --prefix backend run build-docs && npm --prefix frontend run build-docs && npm --prefix dashboard run build-docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
